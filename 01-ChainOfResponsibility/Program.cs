@@ -1,4 +1,5 @@
 ﻿using System;
+using _01_ChainOfResponsibility.Handler;
 
 namespace _01_ChainOfResponsibility
 {
@@ -16,8 +17,8 @@ namespace _01_ChainOfResponsibility
 
         private static void Method1()
         {
-            var msWordHandler = new MSWordHandler();
-            var jsonHandler = new JSONHandler();
+            var msWordHandler = new MsWordHandler();
+            var jsonHandler = new JsonHandler();
             var xmlHandler = new XmlHandler();
             var handlerChain = new Handlers();
             handlerChain.SetNext(xmlHandler).SetNext(jsonHandler).SetNext(msWordHandler);
@@ -27,8 +28,8 @@ namespace _01_ChainOfResponsibility
 
         private static void Method2()
         {
-            var msWordHandler = new MSWordHandler();
-            var jsonHandler = new JSONHandler();
+            var msWordHandler = new MsWordHandler();
+            var jsonHandler = new JsonHandler();
             var xmlHandler = new XmlHandler();
             var handlerChain = new Handlers().SetNext(xmlHandler.SetNext(jsonHandler.SetNext(msWordHandler)));
             handlerChain.Handle("Chisty");

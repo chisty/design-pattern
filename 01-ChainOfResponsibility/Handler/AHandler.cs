@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _01_ChainOfResponsibility
+﻿namespace _01_ChainOfResponsibility.Handler
 {
     public abstract class AHandler: IHandler
     {

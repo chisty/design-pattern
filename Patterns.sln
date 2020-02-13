@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-ChainOfResponsibility", "01-ChainOfResponsibility\01-ChainOfResponsibility.csproj", "{695937AE-0991-4917-A244-2A4A9EE6F1D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-ChainOfResponsibility", "01-ChainOfResponsibility\01-ChainOfResponsibility.csproj", "{695937AE-0991-4917-A244-2A4A9EE6F1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Command", "02.Command\02.Command.csproj", "{24D32C42-3C2F-47E7-A482-DE6B4505FE99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Strategy", "03.Strategy\03.Strategy.csproj", "{D24BFD97-F9EA-46C1-A6B9-060473979175}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{695937AE-0991-4917-A244-2A4A9EE6F1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{695937AE-0991-4917-A244-2A4A9EE6F1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{695937AE-0991-4917-A244-2A4A9EE6F1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D32C42-3C2F-47E7-A482-DE6B4505FE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D32C42-3C2F-47E7-A482-DE6B4505FE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D32C42-3C2F-47E7-A482-DE6B4505FE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D32C42-3C2F-47E7-A482-DE6B4505FE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24BFD97-F9EA-46C1-A6B9-060473979175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24BFD97-F9EA-46C1-A6B9-060473979175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24BFD97-F9EA-46C1-A6B9-060473979175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24BFD97-F9EA-46C1-A6B9-060473979175}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
