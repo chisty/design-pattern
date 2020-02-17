@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-ChainOfResponsibility", "01-ChainOfResponsibility\01-ChainOfResponsibility.csproj", "{695937AE-0991-4917-A244-2A4A9EE6F1D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Command", "02.Command\02.Command.csproj", "{24D32C42-3C2F-47E7-A482-DE6B4505FE99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Command", "02.Command\02.Command.csproj", "{24D32C42-3C2F-47E7-A482-DE6B4505FE99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Strategy", "03.Strategy\03.Strategy.csproj", "{D24BFD97-F9EA-46C1-A6B9-060473979175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Strategy", "03.Strategy\03.Strategy.csproj", "{D24BFD97-F9EA-46C1-A6B9-060473979175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.State", "04.State\04.State.csproj", "{2889B8F0-DC62-4EA3-ADCB-C3C604BBC120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D24BFD97-F9EA-46C1-A6B9-060473979175}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D24BFD97-F9EA-46C1-A6B9-060473979175}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D24BFD97-F9EA-46C1-A6B9-060473979175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2889B8F0-DC62-4EA3-ADCB-C3C604BBC120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2889B8F0-DC62-4EA3-ADCB-C3C604BBC120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2889B8F0-DC62-4EA3-ADCB-C3C604BBC120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2889B8F0-DC62-4EA3-ADCB-C3C604BBC120}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
